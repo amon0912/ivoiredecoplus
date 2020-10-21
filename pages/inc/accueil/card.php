@@ -2,7 +2,7 @@
     <div class="grid">
         <div class="card">
             <div class="card__image">
-                <img src="https://unsplash.it/400/608?image=123" alt="">
+                <img src="assets/images/400X608.gif" alt="">
 
                 <div class="card__overlay card__overlay--indigo">
                     <div class="card__overlay-content">
@@ -26,7 +26,7 @@
     <div class="grid">
         <div class="card">
             <div class="card__image">
-                <img src="https://unsplash.it/400/300?image=100" alt="">
+                <img src="assets/images/400X300.gif" alt="">
 
                 <div class="card__overlay card__overlay--blue">
                     <div class="card__overlay-content">
@@ -50,7 +50,7 @@
     <div class="grid">
         <div class="card">
             <div class="card__image">
-                <img src="https://unsplash.it/400/300?image=200" alt="">
+                <img src="assets/images/400X300.gif" alt="">
 
                 <div class="card__overlay card__overlay--indigo">
                     <div class="card__overlay-content">
