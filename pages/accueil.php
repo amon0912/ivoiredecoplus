@@ -42,46 +42,18 @@
             </div>
         </div>
         <div class="col-md-6">
-            <h2 class="m-4">SERVICES WITH CLEAN CODE & AWESOME DESIGN</h2>
+            <h2 class="m-4 text-left">Bienvennue chez ivoire deco plus leader de la décoration intérieure en cote d'ivoire.</h2>
             <div class="d-flex align-items-start justify-content-start">
-                <div>
+                <!-- <div>
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-laptop text-dark" style="font-size: 70px;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z" />
                         <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z" />
                     </svg>
-                </div>
-                <div class="ml-4">
-                    <h3>Lorem </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ipsa assumenda rem at recusandae ducimus et, ipsum consequatur veniam. Ea molestias.</p>
-                </div>
-            </div>
-
-            <div class="d-flex align-items-start justify-content-start">
-                <div>
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-laptop text-dark" style="font-size: 70px;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z" />
-                        <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z" />
-                    </svg>
-                </div>
-                <div class="ml-4">
-                    <h3>Lorem </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ipsa assumenda rem at recusandae ducimus et, ipsum consequatur veniam. Ea molestias.</p>
-                </div>
-            </div>
-
-            <div class="d-flex align-items-start justify-content-start">
-                <div>
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-laptop text-dark" style="font-size: 70px;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z" />
-                        <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z" />
-                    </svg>
-                </div>
-                <div class="ml-4">
-                    <h3>Lorem </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ipsa assumenda rem at recusandae ducimus.</p>
+                </div> -->
+                <div class="ml-4" style="text-align: justify; font-size:1.2em">
+                    <!-- <h3>Lorem </h3> -->
+                    <p>Pourquoi la décoration intérieure est importante? De nos jours avoir une maison bien décorée n'est pas chose facile diverses personnes ont diverses opinions sur la décoration. Certains trouvent que cela embellit une maison ; d’autres croient que c’est une perte de temps. Personnellement, nous croyons que la décoration d’une maison (ou
+                        d’un appartement) est ce qui en fait un foyer. n'hésitez pas dès aujourd'hui, changez votre monde en affirmant vos valeurs chez vous.</p>
                 </div>
             </div>
         </div>
@@ -96,17 +68,7 @@
     <h2 class="mt-4 text-center text-uppercase">Mes produits </h2>
     <div class="text-center">
         <i class="fas fa-ellipsis-h fa-3x "></i>
-        <nav class="nav justify-content-center">
-            <li class="nav-item btn">
-                <a class=" text-uppercase active text-decoration-none text-muted" href="#">Item 1</a>
-            </li>
-            <li class="nav-item btn">
-                <a class=" text-uppercase text-decoration-none text-secondary" href="#">Item 2</a>
-            </li>
-            <li class="nav-item btn">
-                <a class=" text-uppercase text-secondary" href="#">Item 3</a>
-            </li>
-        </nav>
+
     </div>
 </div>
 <!-- fin section produit -->

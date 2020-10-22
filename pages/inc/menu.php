@@ -1,6 +1,6 @@
 <div class="container-fluid bg-white" style="width:100%" id="vers-menu">
     <h2 style="color: #370d05;" class="text-center mt-4 text-uppercase h1 ">
-        <img src="assets/images/LOGO.png"  class=" img-fluid img rounded-circle" style="width: 6%; height:6%" alt="">
+        <img src="assets/images/logo.png"  class=" img-fluid img rounded-circle" alt="">
         Ivoire Déco Plus
     </h2>
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom ">

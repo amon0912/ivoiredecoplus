@@ -1,5 +1,5 @@
 <div class="site__wrapper">
-    <div class="grid">
+    <!-- <div class="grid">
         <div class="card">
             <div class="card__image">
                 <img src="assets/images/400X608.gif" alt="">
@@ -21,14 +21,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="grid">
         <div class="card">
             <div class="card__image">
-                <img src="assets/images/400X300.gif" alt="">
+                <img src="assets/images/img1.jpg" style="width: 400px; height:300px" alt="">
 
-                <div class="card__overlay card__overlay--blue">
+                <div class="card__overlay card__overlay-blue">
                     <div class="card__overlay-content">
                         <ul class="card__meta">
                             <li><a href="#0"><i class="fa fa-tag"></i> UI/UX</a></li>
@@ -50,9 +50,9 @@
     <div class="grid">
         <div class="card">
             <div class="card__image">
-                <img src="assets/images/400X300.gif" alt="">
+                <img src="assets/images/img2.jpg" style="width: 400px; height:300px" alt="">
 
-                <div class="card__overlay card__overlay--indigo">
+                <div class="card__overlay card__overlay-indigo">
                     <div class="card__overlay-content">
                         <ul class="card__meta">
                             <li><a href="#0"><i class="fa fa-tag"></i> UI/UX</a></li>
@@ -74,9 +74,9 @@
     <div class="grid">
         <div class="card">
             <div class="card__image">
-                <img src="https://unsplash.it/400/300?image=300" alt="">
+                <img src="assets/images/img3.jpg" style="width: 400px; height:300px" alt="">
 
-                <div class="card__overlay card__overlay--indigo">
+                <div class="card__overlay card__overlay-indigo">
                     <div class="card__overlay-content">
                         <ul class="card__meta">
                             <li><a href="#0"><i class="fa fa-tag"></i> Tutorials</a></li>
@@ -98,9 +98,9 @@
     <div class="grid">
         <div class="card">
             <div class="card__image">
-                <img src="https://unsplash.it/400/300?image=400" alt="">
+                <img src="assets/images/img4.jpg" style="width: 400px; height:300px" alt="">
 
-                <div class="card__overlay card__overlay--blue">
+                <div class="card__overlay card__overlay-blue">
                     <div class="card__overlay-content">
                         <ul class="card__meta">
                             <li><a href="#0"><i class="fa fa-tag"></i> Tutorials</a></li>
@@ -119,4 +119,51 @@
         </div>
     </div>
 
+    <div class="grid">
+        <div class="card">
+            <div class="card__image">
+                <img src="assets/images/img5.jpg" style="width: 400px; height:300px" alt="">
+
+                <div class="card__overlay card__overlay-blue">
+                    <div class="card__overlay-content">
+                        <ul class="card__meta">
+                            <li><a href="#0"><i class="fa fa-tag"></i> Tutorials</a></li>
+                            <li><a href="#0"><i class="fa fa-clock-o"></i> 2 days ago</a></li>
+                        </ul>
+
+                        <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                        <ul class="card__meta card__meta--last">
+                            <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                            <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <div class="card__image">
+                <img src="assets/images/img6.jpg" style="width: 400px; height:300px" alt="">
+
+                <div class="card__overlay card__overlay-blue">
+                    <div class="card__overlay-content">
+                        <ul class="card__meta">
+                            <li><a href="#0"><i class="fa fa-tag"></i> Tutorials</a></li>
+                            <li><a href="#0"><i class="fa fa-clock-o"></i> 2 days ago</a></li>
+                        </ul>
+
+                        <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                        <ul class="card__meta card__meta--last">
+                            <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                            <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
