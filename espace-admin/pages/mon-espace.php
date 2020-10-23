@@ -28,7 +28,7 @@ if (empty($_SESSION['id_user'])) {
             </div>
             <!--  -->
             <div class="col-md-4 mb-3">
-                <a class="lead text-decoration-none" href="?p=add">
+                <a class="lead text-decoration-none" href="?p=message">
                     <div class="card w-100 h-100 btn-outline-info">
                         <div class="card-body">
                             <i class="fas fa-envelope fa-3x fa-fw"></i>

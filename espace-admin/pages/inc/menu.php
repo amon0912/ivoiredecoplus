@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
-    <a class="navbar-brand text-capitalize" href="?p=mon-espace">ivoire déco plus</a>
+    <a class="navbar-brand text-capitalize" href="?p=mon-espace">ivoire déco plus - Espace Admin</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>

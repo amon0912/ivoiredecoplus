@@ -32,7 +32,7 @@ if (!empty($_GET['p'])) {
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-    <title>Ivoire Déco Plus </title>
+    <title>Ivoire Déco-Plus</title>
 </head>
 
 <body>
@@ -57,6 +57,10 @@ if (!empty($_GET['p'])) {
     <?php
     if (!empty($p) && $p == 'accueil') {
         echo '<script src="assets/js/accueil.js"></script>';
+    }
+
+    if (!empty($p) && $p == 'contactez-nous') {
+        echo '<script src="assets/js/kcontactez-nous.js"></script>';
     }
     ?>
 </body>

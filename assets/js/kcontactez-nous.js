@@ -8,22 +8,24 @@ form.addEventListener('submit', function (e) {
     xhr.onreadystatechange = function () {
         if (xhr.status == 200 && xhr.readyState == 4) {
             if (xhr.response.err) {
-                msg.className = 'alert-success text-center rounded';
-                msg.innerHTML = xhr.response.msg;
-
+                // msg.className = 'alert-success text-center rounded';
+                // msg.innerHTML = xhr.response.msg;
+                alert(xhr.response.msg);
+                
                 setTimeout(() => {
-                    window.location.href = '?p=add-galerie';
-                }, 500);
+                    window.location.href = '?p=accueil';
+                }, 2000);
             } else {
-                msg.innerHTML = xhr.response.msg;
-                msg.className = 'alert-danger text-center rounded';
+                alert(xhr.response.msg);
+                // msg.innerHTML = xhr.response.msg;
+                // msg.className = 'alert-danger text-center rounded';
             }
         }
         // console.log(xhr.response);
     }
 
 
-    xhr.open('POST', 'traitement/add_galerie.php', true);
+    xhr.open('POST', 'traitement/envoi_msg.php', true);
     xhr.responseType = 'json';
     xhr.send(data);
 });

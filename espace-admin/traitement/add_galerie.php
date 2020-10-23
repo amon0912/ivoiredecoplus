@@ -4,11 +4,12 @@ include('../../config/db.php');
 
 $err = 0;
 $msg = 'Erreur de connexion au serveur';
-if (!empty($_POST['titre']) && !empty($_POST['description'])) {
+if (!empty($_POST['prix']) && !empty($_POST['titre']) && !empty($_POST['description'])) {
     // if (true) {
 
     $titre = trim(strip_tags($_POST['titre']));
     $description = trim(strip_tags($_POST['description']));
+    $prix = trim(strip_tags($_POST['prix']));
 
     if ($_FILES['fichier']['error'] != 0) {
         $err = 0;
@@ -27,8 +28,9 @@ if (!empty($_POST['titre']) && !empty($_POST['description'])) {
                 $msg = '';
                 $err = 1;
                 $id = $_POST['update'];
-                $q = $db->prepare("update deco set  titre_deco = ?, lien_image_deco = ?, description_deco = ? where id_deco = ? ");
-                $q->execute([$titre, $lien, $description, $_POST['id_deco']]);
+                $q = $db->prepare("update deco set  titre_deco = ?, lien_image_deco = ?, description_deco = ?, prix_deco = ? where id_deco = ? ");
+                $q->execute([$titre, $lien, $description, $prix, $_POST['id_deco']]);
+                unlink('../../assets/uploads/'.$_POST['lienold']);
             }
         } else {
 
@@ -45,8 +47,8 @@ if (!empty($_POST['titre']) && !empty($_POST['description'])) {
                 $msg = '';
                 $err = 1;
                 $id = uniqid(time());
-                $q = $db->prepare("insert into deco (id_deco, titre_deco, lien_image_deco, description_deco) values (?,?,?,?)");
-                $q->execute([$id, $titre, $lien, $description]);
+                $q = $db->prepare("insert into deco (id_deco, titre_deco, lien_image_deco, description_deco, prix_deco) values (?,?,?,?,?)");
+                $q->execute([$id, $titre, $lien, $description, $prix]);
             }
         }
     }

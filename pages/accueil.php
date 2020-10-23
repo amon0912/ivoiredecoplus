@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <h2 class="m-4 text-left">Bienvennue chez ivoire deco plus leader de la décoration intérieure en cote d'ivoire.</h2>
+            <h2 class="m-4 text-left">Bienvenue à ivoire-décoplus <br>leader de la décoration intérieure en cote d'ivoire.</h2>
             <div class="d-flex align-items-start justify-content-start">
                 <!-- <div>
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-laptop text-dark" style="font-size: 70px;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@
                 <div class="ml-4" style="text-align: justify; font-size:1.2em">
                     <!-- <h3>Lorem </h3> -->
                     <p>Pourquoi la décoration intérieure est importante? De nos jours avoir une maison bien décorée n'est pas chose facile diverses personnes ont diverses opinions sur la décoration. Certains trouvent que cela embellit une maison ; d’autres croient que c’est une perte de temps. Personnellement, nous croyons que la décoration d’une maison (ou
-                        d’un appartement) est ce qui en fait un foyer. n'hésitez pas dès aujourd'hui, changez votre monde en affirmant vos valeurs chez vous.</p>
+                        d’un appartement) est ce qui en fait un foyer. N'hésitez pas dès aujourd'hui, changez votre monde en affirmant vos valeurs chez vous.</p>
                 </div>
             </div>
         </div>
@@ -68,7 +68,6 @@
     <h2 class="mt-4 text-center text-uppercase">Mes produits </h2>
     <div class="text-center">
         <i class="fas fa-ellipsis-h fa-3x "></i>
-
     </div>
 </div>
 <!-- fin section produit -->

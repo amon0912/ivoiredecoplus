@@ -28,7 +28,8 @@ if (!empty($_GET['p'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Title</title>
+    <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+    <title>Ivoire Déco-Plus</title>
 </head>
 
 <body>
