@@ -3,4 +3,5 @@ User-Agent: *
 Allow: /
 
 
-Disallow /espace-admin
+Disallow /espace-admin/
+Disallow /config/
